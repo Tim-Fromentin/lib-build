@@ -1,0 +1,21 @@
+<style>    .link_1::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    bottom: -5px;
+    left: 0;
+    background: #fdfdfd;
+    transition: width .2s ease-in-out;
+}
+.link_1:hover::before {
+    width: 100%;
+}
+a {
+    font-size: 25px;
+    position: relative;
+}
+html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}body{margin:0;padding:0}ol,ul{list-style:none}a{text-decoration:none;color:inherit}
+</style>
+    <div class="box_link"><a href="#" class="link_1"><span>link text 1</span></a></div>
+

@@ -1,0 +1,31 @@
+<style>
+    .link_1::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    bottom: -5px;
+    left: 0;
+    background: #fdfdfd;
+    transition: width .2s ease-in-out;
+}
+.link_1:hover::before {
+    width: 100%;
+}
+a {
+    font-size: 25px;
+    position: relative;
+}
+html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}body{margin:0;padding:0}ol,ul{list-style:none}a{text-decoration:none;color:inherit}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: white;
+font-family: sans-serif;
+}
+</style>
+<a href="#" class="link_1"><span>link text 1</span></a>
